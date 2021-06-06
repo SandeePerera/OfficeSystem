@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Contracts.Contracts">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;">
+         <children>
+            <Button fx:id="btnDelete" layoutX="85.0" layoutY="252.0" mnemonicParsing="false" onAction="#DeleteContract" prefHeight="66.0" prefWidth="119.0" text="Delete Contact" />
+            <Button fx:id="btnViewCon" layoutX="408.0" layoutY="66.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="119.0" text="View Contact" />
+            <Button fx:id="btnAddCon" layoutX="92.0" layoutY="74.0" mnemonicParsing="false" onAction="#AddContracts" prefHeight="66.0" prefWidth="119.0" text="Add Contact" />
+            <Button fx:id="btnUpdate" layoutX="408.0" layoutY="261.0" mnemonicParsing="false" onAction="#UpdateContract" prefHeight="66.0" prefWidth="119.0" text="Update Info" />
+            <Button fx:id="btnCancel" layoutX="545.0" layoutY="361.0" mnemonicParsing="false" onAction="#back" text="Back" />
+            <Text fx:id="ConDetails" layoutX="126.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contracts  Details" textAlignment="CENTER" wrappingWidth="363.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="35.0" />
+               </font>
+               <fill>
+                  <LinearGradient endX="0.5714285714285714" endY="0.05238095238095236" startX="0.26190476190476186" startY="0.7333333333333333">
+                     <stops>
+                        <Stop color="#dd1fb4" />
+                        <Stop color="#dd1fb4" offset="0.29118773946360144" />
+                        <Stop color="#47cc43" offset="0.7854406130268198" />
+                        <Stop color="#47cc43" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

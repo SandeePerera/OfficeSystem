@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Contracts.AddContracts">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="28.0" minHeight="354.0" minWidth="600.0" prefHeight="381.0" prefWidth="602.0" style="-fx-background-color: blue;">
+         <children>
+            <Text fill="#e8e4e4" layoutX="20.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contracter Name  :" wrappingWidth="172.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnSubmit" layoutX="360.0" layoutY="329.0" mnemonicParsing="false" onAction="#ok" prefHeight="25.0" prefWidth="123.0" text="Submit ">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnCancel" layoutX="500.0" layoutY="329.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: red;" text="Cancel">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <TextField fx:id="contactNum" layoutX="172.0" layoutY="304.0" style="-fx-background-color: gray;" />
+            <Text fill="#f5f5f5" layoutX="14.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Number  :" wrappingWidth="149.0000046491623">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="84.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year" />
+            <TextField fx:id="Year" layoutX="175.0" layoutY="248.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: gray;" />
+            <Text fill="WHITE" layoutX="271.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Month" />
+            <TextField fx:id="Month" layoutX="321.0" layoutY="244.0" prefHeight="25.0" prefWidth="102.0" style="-fx-background-color: gray;" />
+            <Text fill="WHITE" layoutX="444.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" />
+            <TextField fx:id="Date" layoutX="483.0" layoutY="248.0" prefHeight="25.0" prefWidth="108.0" style="-fx-background-color: gray;" />
+            <Text fill="#f5f5f5" layoutX="22.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" wrappingWidth="92.0000114440918">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#f5f5f5" layoutX="24.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Job Type  :" wrappingWidth="123.0000022649765">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="cFname" layoutX="173.0" layoutY="101.0" style="-fx-background-color: gray;" />
+            <TextField fx:id="cLname" layoutX="441.0" layoutY="101.0" style="-fx-background-color: gray;" />
+            <Text fill="WHITE" layoutX="96.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name :" />
+            <Text fill="#fcf8f8" layoutX="371.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" />
+            <Text fill="#e8e4e4" layoutX="19.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contracter ID  :" wrappingWidth="130.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="CId" layoutX="171.0" layoutY="34.0" style="-fx-background-color: gray;" />
+            <TextField fx:id="JobType" layoutX="174.0" layoutY="148.0" style="-fx-background-color: gray;" />
+            <Text fill="#f5f5f5" layoutX="22.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description  :" wrappingWidth="123.0000022649765">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="Description" layoutX="172.0" layoutY="198.0" prefHeight="25.0" prefWidth="420.0" style="-fx-background-color: gray;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-1.0" prefHeight="40.0" prefWidth="602.0" style="-fx-background-color: orange;">
+         <children>
+            <Text fx:id="ConractorDetails" fill="#bf5d1b" layoutX="20.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contract Details" textAlignment="CENTER" wrappingWidth="473.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
